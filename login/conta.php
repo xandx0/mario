@@ -86,7 +86,7 @@
 
     <form action="salvarConta.php" method="post">
 
-        <h1>Criar Conta</h1>
+        <h1>Criar Conta </h1>
 
         <label for="txtNomeFun">Nome do Funcionario: </label>
         <input type="text" id="txtNomeFun" name="txtNomeFun">
