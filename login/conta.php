@@ -12,7 +12,8 @@
     <style>
         body {
             height: 120vh;
-            background-color: #C5FFEA;
+            /*background-color: #C5FFEA;*/
+            background-image: linear-gradient(90deg ,#C5FFEA  ,#fff ,#fff ,#fff ,#C5FFEA );
             display: flex;
             align-items: top;
             justify-content: center;
@@ -86,7 +87,7 @@
 
     <form action="salvarConta.php" method="post">
 
-        <h1>Criar Conta </h1>
+        <h1>Criar Conta</h1>
 
         <label for="txtNomeFun">Nome do Funcionario: </label>
         <input type="text" id="txtNomeFun" name="txtNomeFun">

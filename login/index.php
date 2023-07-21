@@ -12,10 +12,18 @@
     <style>
         body {
             height: 100vh;
-            background-color: #73DCFD;
+            /*background-color: #73DCFD;*/
+            background-image: linear-gradient(90deg ,#73DCFD  ,#fff ,#fff ,#fff ,#73DCFD );
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        div {
+            display: block;
+            border-radius: 10px;
+            margin-left: -8px;
+            margin-bottom: 10px;
         }
 
         form {
@@ -25,6 +33,7 @@
             border-radius: 10px;
             display: flex;
             flex-direction: column;
+            border: solid 1px #73DCFD;
         }
 
         input {
@@ -50,7 +59,7 @@
         }
 
         button {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: bold;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             padding: 10px;
@@ -84,6 +93,10 @@
 <body>
 
     <form action="logar.php" method="post">
+
+        <div>
+            <img src="../imagem/boletim-online-rj-2022-300x172.png" alt=""> 
+        </div>   
 
         <h1>Login</h1>
 

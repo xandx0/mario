@@ -87,7 +87,8 @@
     <style>
         body {
             height: 100vh;
-            background-color: #Fbb;
+            /*background-color: #Fbb;*/
+            background-image: linear-gradient(90deg ,#Fbb  ,#fff ,#fff ,#fff ,#Fbb );
             display: flex;
             align-items: center;
             justify-content: center;
